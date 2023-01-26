@@ -1,0 +1,55 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*cout << "enter two nubers" << endl;
+	int x, y;
+	cin >> x, y;
+
+	if (x > y) {cout << "max" << x << endl << "min" << y << endl;}
+	else cout << "max" << y << endl << "min" << x << endl;
+
+	if (x < 0 && y < 0)
+	{cout << "numbers or one number is negative" << endl;}
+	else cout << "numbers are positive" << endl;
+
+	if (x % 2 == 0) { cout << "pair number" << endl; }
+	if (y % 2 == 0) { cout << "pair number" << endl; }
+	else cout << "not a pair number" << endl;*/
+
+	/*int x;
+	cin >> x;
+	if (x >= 90 &&x < 100) { cout << "grade a" << endl; }
+	if (x >= 80 && x < 90) { cout << "grade b" << endl;}
+	if (x >= 70 && x < 80) { cout << "grade c" << endl; }
+	if (x >= 60 && x < 70){ cout << "grade d" << endl; }
+	if (x >= 40 && x < 60){ cout << "grade e" << endl; }
+	if (x < 40 && x>=  90){ cout << "grade f" << endl; }*/
+
+	/*int a, b;
+	cin >> a >> b;
+	if (a == 1) { cout << "pirmdiena" << endl; }
+	if (a == 2) { cout << "otrdiena" << endl; }
+	if (a == 3) { cout << "tresdiena" << endl; }
+	if (a == 4) { cout << "ceturtdiena" << endl; }
+	if (a == 5) { cout << "piektdiena" << endl; }
+	if (a == 6) { cout << "sestdiena" << endl; }
+	if (a == 7) { cout << "svetdiena" << endl; }
+
+	if (b == 1) { cout << "janvaris" << endl; }
+	if (b == 2) { cout << "februaris" << endl; }
+	if (b == 3) { cout << "marts" << endl; }
+	if (b == 4) { cout << "aprilis" << endl; }
+	if (b == 5) { cout << "maijs" << endl; }
+	if (b == 6) { cout << "junijs" << endl; }
+	if (b == 7) { cout << "julijs" << endl; }
+	if (b == 8) { cout << "augusts" << endl; }
+	if (b == 9) { cout << "septembris" << endl; }
+	if (b == 10) { cout << "oktobris" << endl; }
+	if (b == 11) { cout << "novembris" << endl; }
+	if (b == 12) { cout << "decembris" << endl; }*/
+
+	/*int a, b, c;
+	cin >> a >> b >> c;
+	if (a==b&& a==c&& b==c) {cout << "vienadmalu trijsturis" << endl;}
+	if (a == b && a !== c && b !== c) { cout << "vienadsanu trijsturis" << endl; }*/
