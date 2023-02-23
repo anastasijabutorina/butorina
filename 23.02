@@ -1,0 +1,114 @@
+#include <vector>
+#include <iostream>
+using namespace std;
+int main()
+{
+	/*vector<int> num{1,2,3,1,2};
+	cout << num[0] << num[1] << num[2] << num[3] << num[4];
+	if (num[0] == 1) cout << "1 element has a one" << endl;
+	if (num[1] == 1) cout << "2 element has a one" << endl;
+	if (num[2] == 1) cout << "3 element has a one" << endl;
+	if (num[3] == 1) cout << "4 element has a one" << endl;
+	if (num[4] == 1) cout << "5 element has a one" << endl;
+
+	if (num[0] == 4) cout << "1 element has a four" << endl;
+	if (num[1] == 4) cout << "2 element has a four" << endl;
+	if (num[2] == 4) cout << "3 element has a four" << endl;
+	if (num[3] == 4) cout << "4 element has a four" << endl;
+	if (num[4] == 4) cout << "5 element has a four" << endl;*/
+
+	/*vector <string> country{"usa ","uk ","china ","india ","canada ","australia "};
+	vector <string> code{ "+1","+44","+86","+91","+1","+61" };
+	string num, cod;
+	cout << "1 tel, 2 kods" << endl;
+	cin >> num >> cod;
+	if (code[0] == cod)cout << country[0];
+	if (code[1] == cod)cout << country[1];
+	if (code[2] == cod)cout << country[2];
+	if (code[3] == cod)cout << country[3];
+	if (code[4] == cod)cout << country[4];
+	if (code[5] == cod)cout << country[5];
+	cout << cod << num;*/
+	
+	/*vector <int> num{3,8,7,4};
+	vector <string> name{ "anna ", "antons ", "vlads ", "artemijs'" };
+	cout << "ievadi atzimi" << endl;
+	int n;
+	cin >> n;
+	if (num[0] == n)cout << name[0];
+	if (num[1] == n)cout << name[1];
+	if (num[2] == n)cout << name[2];
+	if (num[3] == n)cout << name[3];
+	if (num[0] != n && num[1] != n && num[2] != n && num[3] != n)
+	cout<<"tadas nav"*/ 
+	
+
+	/*vector<int> num{2,3,5,7};
+	cout << (num[0]*num[0]) << endl;
+	cout << (num[1]*num[1]) << endl;
+	cout << (num[2]*num[2]) << endl;
+	cout << (num[3]*num[3]) << endl;*/
+
+	/*vector <string> svetki{"lacplesa diena ", "halovini ", "neatkaribas diena "};
+	vector <string> date{ "11.11 ", "31.10 ", " 18.11 " };
+	string atb;
+	cout << "ja vai ne";
+	cin >> atb;
+	if (atb == "ja") cout << svetki[0] << date[0] << svetki[1] << date[1] << svetki[2] << date[2];
+	else cout << "goodbye" << endl;*/
+
+	/*vector <int> a{-2,-4,-6,-8,-10,0,+2,+4,+6,+8};
+	int i = 0;
+	if (a[0] > 0) i++;
+	if (a[1] > 0) i++;
+	if (a[2] > 0) i++;
+	if (a[3] > 0) i++;
+	if (a[4] > 0) i++;
+	if (a[5] > 0) i++;
+	if (a[6] > 0) i++;
+	if (a[7] > 0) i++;
+	if (a[8] > 0) i++;
+	if (a[9] > 0) i++;
+	cout << i;*/
+
+	/*vector<int> num{16,4,33,8};
+	int atb;
+	cout << num[0] << num[1] << num[2] << num[3];
+	cout << "enter number";
+	cin >> atb;
+
+	if (num[0] == atb) cout << "ir saraksta" << endl;
+	if (num[1] == atb) cout << "ir saraksta" << endl;
+	if (num[2] == atb) cout << "ir saraksta" << endl;
+	if (num[3] == atb) cout << "ir saraksta" << endl;
+	if (num[0] != atb && num[1] != atb && num[2] != atb && num[3] != atb) cout << "tada nav";*/
+
+	/*vector<int> num{2,4,6,8};
+	cout << (num[0] * num[0] * num[0]) << endl;
+	cout << (num[1] * num[1] * num[1]) << endl;
+	cout << (num[2] * num[2] * num[2]) << endl;
+	cout << (num[3] * num[3] * num[3]) << endl;
+	cout << "ievadiet skaitli" << endl;
+	int atb;
+	cin >> atb;
+	if (num[0] == atb) cout << "para sk un mazaks par 10" << endl;
+	if (num[1] == atb) cout << "para sk un mazaks par 10" << endl;
+	if (num[2] == atb) cout << "para sk un mazaks par 10" << endl;
+	if (num[3] == atb) cout << "para sk un mazaks par 10" << endl;
+	if (num[0] != atb && num[1] != atb && num[2] != atb && num[3] != atb) cout << "nepara sk un lielaks par 10";*/
+
+	/*vector <string> scirnas{"spaniels ","jorks ","vācu aitas suns ","pūdelis "};
+	vector <string> name{ "Bobik","Jorik","Bobs","Robs" };
+	string atb;
+	cout << "ievadiet suna vardu" << endl;
+	cin >> atb;
+	if (name[0] == atb)cout << scirnas[0];
+	if (name[1] == atb)cout << scirnas[1];
+	if (name[2] == atb)cout << scirnas[2];
+	if (name[3] == atb)cout << scirnas[3];*/
+
+	vector<string> names{ "sofia", "daria", "maria", "geogrs", "anna", "anastasia", "nikita" };
+	cout << "ja vai ne";
+	cin >> atb;
+	if (atb == "ja") cout << names[0] << names[0] << names[1] << [1] << svetki[2] << date[2];
+	else cout << "goodbye" << endl;
